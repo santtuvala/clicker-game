@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(180, 82, 1);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+#game {
+    text-align: center;
+}
+
+#cookie-counter {
+    color: azure;
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+#cps-counter {
+    color: azure;
+    font-size: 60px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 180%);
+}
+
+#cookie {
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#cookie:hover {
+    width: 290px;
+}
+
+#upgrades {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.upgrade {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 115, 0);
+    display: inline-block;
+    margin: 10px;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.upgrade-header {
+    color: paleturquoise;
+    font-weight: bold;
+}
+
+.upgrade-description {
+    color: lightcyan;
+    font-style: italic;
+}
+
+.upgrade:hover {
+    background-color: black;
+}
